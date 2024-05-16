@@ -1,0 +1,67 @@
+.carteles{
+    width: 850px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    background: var(--bk--main);
+}
+
+.carteles .items{
+    width: 180px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--bk--card);
+    border: 1px solid #cccccc;
+}
+.items .eliminar{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+.items .img{
+    width: auto;
+    height: 150px;
+    margin: 5px 0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.img .imagen-cartel{
+    width: 150px;
+    height:150px ;
+    object-fit: cover;
+}
+.items .desk{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desk .name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--txt--principal);
+}
+.desk .recom{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--txt--secundario);
+}

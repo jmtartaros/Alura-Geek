@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "DEADPOOL SAMURAI 2",
+      "precio": "125",
+      "img": "https://www.panini.it/media/catalog/product/cache/a87cfc69c89e7921deea3a8e066ac416/M/M/MMRUN024ISBN_0.jpg"
+    },
+    {
+      "id": "2",
+      "name": "CHAINSAW MAN NO.6",
+      "precio": "110",
+      "img": "https://www.otakustoreshop.com/11089-medium_default/manga-chainsawman-tomo-4.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Rebuild Of Evangelion EVA Unit-02",
+      "precio": "1,820",
+      "img": "https://www.otakustoreshop.com/10621-large_default/rebuild-of-evangelion-mecha-002lm-eva-unit-02-ver15-multi-color-edition-production-model-kit.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Jujutsu Kaisen Suguru Geto",
+      "precio": "1,800",
+      "img": "https://www.otakustoreshop.com/11026-large_default/jujutsu-kaisen-artfx-j-suguru-geto-18-scale-figura.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Naruto: Shippuden Jiraiya Sage Mode",
+      "precio": "220",
+      "img": "https://www.otakustoreshop.com/9619-large_default/funko-pop-animation-naruto-shippuden-jiraiya-sage-mode-aaa-exclusivo.jpg"
+    }
+  ]
+}

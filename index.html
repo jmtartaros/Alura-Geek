@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Alura-Geek</h1>
+    </header>
+    <main>
+        <section class="sec-1">
+            <h2>Mis productos</h2>
+            <section class="carteles" id="carteles" data-list>
+        </section>
+        </section>
+
+        <section class="formulario">
+            <h1 class="add-people">Agrege un personaje</h1>
+                <form id="formulario" class="form" data-form>
+                    <div class="input-div">
+                        <input type="text" id="name" class="input" placeholder="" autocomplete="off" required>
+                        <label for="name">Nombre</label>
+                    </div>
+                        <div class="input-div">
+                            <input type="number" id="precio" class="input" placeholder="" autocomplete="off" required>
+                            <label for="recompensa">Ingrese el precio</label>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" minlength="8" id="url"  class="input" placeholder="" autocomplete="off" required>
+                            <label for="url">Ingrese la url de la imagen</label>
+                        </div>
+                    <div class="btns">
+                        <button type="submit" class="btn-enviar">Enviar</button>
+                        <button type="button" class="btn-limpiar">Limpiar</button>
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            
+            <h2>AluraGeek</h2>
+            <p>Desarrollado por Jorge Tuchán</p>
+            <p>Alura Latam <span id="año"></span></p>
+        </div>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/formulario.js" type="module"></script>
+    <script src="./js/form.js" type="module"></script>
+</body>
+</html>
