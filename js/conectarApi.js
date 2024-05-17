@@ -44,7 +44,7 @@ const enviarDatos = async (name,precio,img,id) =>{
 
 const eliminarProducto = async(id) =>{
     console.log("estoy en datos, id:"+id);
-    const conexion = await fetch(`http://localhost:3000/products/${id}`, {
+    const conexion = await fetch(`https://fake-api-beryl-nine.vercel.app/products/${id}`, {
         method: "DELETE",
         headers: {
             "Content-type": "application/json"

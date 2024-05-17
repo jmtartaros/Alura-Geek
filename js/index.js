@@ -1,7 +1,7 @@
 import {
     importApi
 } from "./conectarApi.js";
-const apiConexion = "http://localhost:3000/products/";
+const apiConexion = "https://fake-api-beryl-nine.vercel.app/products";
 let today = new Date()
 let year = today.getFullYear();
 let año = document.getElementById("año");
